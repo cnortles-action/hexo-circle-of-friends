@@ -17,7 +17,7 @@
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK = [
     {
-        "link": "https://zfe.space/link/",  # 友链页地址1，修改为你的友链页地址
+        "link": "https://www1.cnortles.top/link/",  # 友链页地址1，修改为你的友链页地址
         "theme": "butterfly"
     },
     #     {
@@ -49,8 +49,6 @@ SETTINGS_FRIENDS_LINKS = {
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
-        # 比如 https://elizen.me/hello.xml ，填写：
-        ["elizen", "https://elizen.me/", "https://akilar.top/images/headimage.png", "hello.xml"],
     ]
 }
 
@@ -89,7 +87,7 @@ HTTP_PROXY = False
 OUTDATE_CLEAN = 60
 
 # 存储方式，可选项：leancloud，mysql，sqlite，mongodb；默认为leancloud
-DATABASE = "leancloud"
+DATABASE = "mongodb"
 
 # 部署方式，可选项：github，server，docker；默认为github
 DEPLOY_TYPE = "github"
@@ -124,8 +122,8 @@ HTTP_PROXY_URL = ""
 # ]
 FRIENDPAGE_LINK = [
     {
-        "link": "https://hgm.vercel.app/link/",  # 友链页地址1，修改为你的友链页地址
-        "theme": "volantis"
+        "link": "https://www2.cnortles.top/link/",  # 友链页地址1，修改为你的友链页地址
+        "theme": "butterfly"
     },
 ]
 
